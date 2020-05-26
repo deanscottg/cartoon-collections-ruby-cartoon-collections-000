@@ -35,3 +35,10 @@ def find_the_cheese (potential_cheese_array)
     cheese_types.include?(cheese)
   end
   end
+  
+  def words_with_b (potential_words)
+    b_words = []
+    potential_words.each do |word|
+2.6.1 :013 >     if word.start_with?("b")
+2.6.1 :014?>     puts word
+      
